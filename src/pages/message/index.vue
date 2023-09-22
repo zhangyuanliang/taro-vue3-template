@@ -4,16 +4,9 @@
   </view>
 </template>
 
-<script>
+<script lang="ts" setup>
 import { ref } from 'vue'
 import './index.less'
 
-export default {
-  setup () {
-    const msg = ref('Hello world')
-    return {
-      msg
-    }
-  }
-}
+const msg = ref('Hello world')
 </script>

@@ -1,0 +1,177 @@
+{
+  "editor.codeActionsOnSave": {
+    // 保存时要执行的操作
+    "source.fixAll.eslint": true // 依据eslint格式化代码
+  },
+  "editor.formatOnSave": true, // 保存时格式化代码
+  "npm.packageManager": "pnpm", // 使用pnpm作为项目的包管理器
+  "editor.guides.bracketPairs": "active", // 是否启用括号对其参考线(active则是激活时启用)
+  "editor.inlineSuggest.enabled": true, // 是否显示内联建议
+  "editor.tabSize": 2, // tab键占多少字符
+  "eslint.alwaysShowStatus": true, // 始终显示eslint状态栏
+  "eslint.probe": [
+    // 如果安装了支持, 扩展应探测这些支持
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "markdown",
+    "json",
+    "jsonc"
+  ],
+  "eslint.validate": [
+    // 应该由eslint检查的语言
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "markdown",
+    "json",
+    "jsonc"
+  ],
+  "files.associations": {
+    // 配置文件关联. 优先级高于默认配置
+    "*.env.*": "dotenv"
+  },
+  "files.eol": "\n", // 默认的行尾符(此处设置为LF)
+  "git.enableSmartCommit": true, // 当git没有暂存的变更时, 提交所有变更
+  "gutterpreview.paths": {
+    // 指定要相对项目跟路径计算的路径映射
+    "@": "/src"
+  },
+  "i18n-ally.localesPaths": [
+    // locales目录路径(相对根目录)
+    "src/locales",
+    "src/locales/lang"
+  ],
+  // see: https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
+  "material-icon-theme.activeIconPack": "angular", // 启用特定的图标包
+  "material-icon-theme.files.associations": {
+    "index.ts": "Bazel",
+    "index.vue": "Vagrant",
+    "App.vue": "Verdaccio",
+    "main.css": "Moonscript",
+    "main.scss": "Moonscript",
+    "main.less": "Moonscript",
+    "main.ts": "Nim",
+    "helpers.ts": "Architecture",
+    "permission.ts": "Lock",
+    "dynamic.ts": "Imba"
+  }, // 设置自定义文件图标关联
+  "material-icon-theme.folders.associations": {
+    // 设置自定义文件夹图标关联
+    "src-tauri": "src",
+    "enum": "typescript",
+    "enums": "typescript",
+    "store": "context",
+    "stores": "context",
+    "composable": "hook",
+    "composables": "hook",
+    "business": "core",
+    "request": "Aws",
+    "adapter": "middleware",
+    "svg-icon": "svg",
+    "directive": "Vue-directives",
+    "directives": "Vue-directives",
+    "sdk": "Tools",
+    "filters": "Pipe",
+    "storage": "Database",
+    "crypto": "Keys",
+    "route": "Routes",
+    "tab": "Queue",
+    // 我们希望将views目录和layout/common下的文件夹指定为Vue类文件夹, 遗憾的是目前只能手动配置, vscode暂时缺少api支持
+    // https://github.com/PKief/vscode-material-icon-theme/issues/632
+    // https://github.com/PKief/vscode-material-icon-theme/issues/631
+    "common/Footer": "Vue", // 不支持两级以上的目录写法
+    "common/Header": "Vue",
+    "common/Logo": "Vue",
+    "common/Sidebar": "Vue",
+    "common/Tab": "Vue",
+    "layout/BasicLayout": "Layout",
+    "layout/BlankLayout": "Layout",
+    "views/about": "Vue",
+    "views/auth-demo": "Vue",
+    "views/component": "Vue",
+    "views/dashboard": "Vue",
+    "views/login": "Vue",
+    "views/multi-menu": "Vue",
+    "views/exception": "Vue",
+    "views/function": "Vue",
+    "views/plugin": "Vue",
+    "views/system-view": "Vue"
+  },
+  "path-intellisense.mappings": {
+    // 路径映射, 这些值应该被解析为绝对路径
+    "@": "${workspaceFolder}/src"
+  },
+  "iconify.includes": ["ep", "mdi"], // 默认引入工作区的iconify图标集id, 但建议全量本地安装iconify图标集(约120M), 只有实际使用的图标才会打包到生产环境, see: https://github.com/antfu/unplugin-icons
+  "typescript.updateImportsOnFileMove.enabled": "always", // 自动更新导入路径
+  "workbench.iconTheme": "material-icon-theme", // 图标主题
+  // "workbench.colorTheme": "Material Theme Ocean High Contrast", // 全局色彩主题
+  // 配置默认的格式化程序
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.userWords": [
+    // 添加到全局字典的单词
+    "Pinia",
+    "swiper",
+    "unocss",
+    "unplugin",
+    "nprogress",
+    "vueuse",
+    "amap",
+    "jsapi",
+    "iconify",
+    "rushstack",
+    "brotliSize",
+    "GAODE",
+    "decrypto",
+    "encrypto",
+    "Attributify",
+    "commitlint",
+    "esbuild",
+    "Prefixs",
+    "typeof",
+    "composables",
+    "devcontainer",
+    "preffix",
+    "unref",
+    "Nullishable",
+    "echarts",
+    "vnode",
+    "vditor",
+    "xgplayer",
+    "wangeditor"
+  ],
+  "commentTranslate.source": "Bing", // 翻译源
+  "commentTranslate.targetLanguage": "zh-CN" // 翻译的目标语言
+}
