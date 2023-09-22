@@ -1,0 +1,75 @@
+@import url(./assets/style/common.less);
+
+page,
+view,
+text {
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'PingFang SC', -apple-system, BlinkMacSystemFont, system-ui, WechatSans, sans-serif;
+  box-sizing: border-box;
+}
+
+page,
+view {
+  --safe-area-inset-bottom: env(safe-area-inset-bottom);
+  --safe-area-inset-bottom: ~'max(17px, env(safe-area-inset-bottom))';
+  --tabbar-height: calc(var(--safe-area-inset-bottom) + 57px);
+
+  // Primary
+  --color-primary: #fa780f;
+  --color-primary-5: #fa8527;
+  --color-primary-4: #fca157;
+  --color-primary-3: #fdc99f;
+  --color-primary-2: #fee4cf;
+  --color-primary-1: #fff7f1;
+
+  // Secondary
+  --color-secondary: #14c891;
+  --color-secondary-5: #2bcd9b;
+  --color-secondary-4: #5bd9b3;
+  --color-secondary-3: #a1e9d3;
+  --color-secondary-2: #d0f4e9;
+  --color-secondary-1: #f1fcf9;
+
+  // Focus
+  --color-focus: #0f87f0;
+  --color-focus-5: #0f87f0;
+  --color-focus-4: #57abf5;
+  --color-focus-3: #9fcff9;
+  --color-focus-2: #cfe7fc;
+  --color-focus-1: #f1f8fe;
+
+  // Danger
+  --color-danger: #f04646;
+  --color-danger-5: #f15858;
+  --color-danger-4: #f57e7e;
+  --color-danger-3: #f9b5b5;
+  --color-danger-2: #fcdada;
+  --color-danger-1: #fef4f4;
+
+  // Black
+  --color-black-8: #292a2c;
+  --color-black-7: #4f5052;
+  --color-black-6: #818284;
+  --color-black-5: #9a9b9d;
+  --color-black-4: #b4b5b7;
+  --color-black-3: #d1d2d4;
+  --color-black-2: #e2e3e5;
+  --color-black-1: #f5f6f8;
+
+  // shadow
+  --shadow-surface-1: 0px 4px 12px 0px rgba(24, 28, 32, 0.02);
+  --shadow-surface-2: 0px 16px 16px -16px rgba(24, 28, 32, 0.04), 0px 8px 16px 0px rgba(24, 28, 32, 0.02);
+  --shadow-button-1: 0px 2px 8px 0px rgba(24, 28, 32, 0.08);
+  --shadow-button-2: 0px 2px 4px 0px rgba(24, 28, 32, 0.1);
+  --shadow-tabbar: 0px 0px 2px 0px rgba(24, 28, 32, 0.08);
+}
+
+.page {
+  background-color: #f4f5f7;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -moz-osx-font-smoothing: grayscale;
+}
