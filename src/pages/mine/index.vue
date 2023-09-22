@@ -8,5 +8,5 @@
 import { ref } from 'vue'
 import './index.less'
 
-const msg = ref('Hello world')
+const msg = ref('mine')
 </script>

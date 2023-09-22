@@ -38,7 +38,7 @@ const toPage = (index, url) => {
 }
 
 const setSelected = (index) => {
-  appStore.setActiveTab(index)
+  tabbarStore.setActiveTab(index)
 }
 </script>
 

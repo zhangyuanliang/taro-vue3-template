@@ -7,5 +7,5 @@
 <script lang="ts" setup>
 import { ref } from 'vue'
 
-const msg = ref('Hello world')
+const msg = ref('home')
 </script>
