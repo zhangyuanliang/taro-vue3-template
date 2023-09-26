@@ -13,7 +13,7 @@
   </view>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import { switchTab } from '@tarojs/taro'
 import { useTabbarStore } from '@/store'
 
@@ -55,7 +55,6 @@ const setSelected = (index) => {
   padding-top: 13px;
   padding-bottom: var(--safe-area-inset-bottom);
   transition: transform 0.3s ease, opacity 0.3s ease;
-  z-index: 9999;
   &.hidden {
     transform: translate3d(0, 100%, 0);
     transition: transform 0.3s ease, opacity 0.3s ease;

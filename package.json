@@ -58,6 +58,7 @@
     "@tarojs/cli": "3.6.0",
     "@tarojs/webpack5-runner": "3.6.0",
     "@types/webpack-env": "^1.13.6",
+    "@types/weixin-app": "^2.9.5",
     "@typescript-eslint/eslint-plugin": "^5.20.0",
     "@typescript-eslint/parser": "^5.20.0",
     "@vue/babel-plugin-jsx": "^1.0.6",

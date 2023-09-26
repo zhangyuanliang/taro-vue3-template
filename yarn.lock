@@ -2353,6 +2353,11 @@
   resolved "https://registry.npmmirror.com/@types/webpack-env/-/webpack-env-1.18.1.tgz#49699bb508961e14a3bfb68c78cd87b296889d1d"
   integrity sha512-D0HJET2/UY6k9L6y3f5BL+IDxZmPkYmPT4+qBrRdmRLYRuV0qNKizMgTvYxXZYn+36zjPeoDZAEYBCM6XB+gww==
 
+"@types/weixin-app@^2.9.5":
+  version "2.9.5"
+  resolved "https://registry.npmmirror.com/@types/weixin-app/-/weixin-app-2.9.5.tgz#c16771d46deeedb64613d27edc41cff9216d2393"
+  integrity sha512-wY98XfjxGM4H1MWFwL08aObyYXeqxYL8ZhDKR7wOqHIyqLIQ/BiCmrbRCL/lXi8PZADzDWiRqiedk3nau5w9Ng==
+
 "@types/ws@^8.2.2":
   version "8.5.5"
   resolved "https://registry.npmmirror.com/@types/ws/-/ws-8.5.5.tgz#af587964aa06682702ee6dcbc7be41a80e4b28eb"

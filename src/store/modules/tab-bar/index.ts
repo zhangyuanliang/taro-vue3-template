@@ -1,7 +1,8 @@
 import { defineStore } from 'pinia'
+import type { TabbarState } from './types'
 
 const useTabbarStore = defineStore('tabBar', {
-  state: () => ({
+  state: (): TabbarState => ({
     activeTab: 0,
     tabVisible: true,
     tabList: [
@@ -36,10 +37,10 @@ const useTabbarStore = defineStore('tabBar', {
   getters: {},
 
   actions: {
-    setActiveTab(index) {
+    setActiveTab(index: number) {
       this.activeTab = index
     },
-    setTabVisible(visible) {
+    setTabVisible(visible: Boolean) {
       this.tabVisible = visible
     },
   },
